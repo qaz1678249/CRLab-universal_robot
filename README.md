@@ -26,7 +26,7 @@ Where ROBOT_IP_ADDRESS is your UR arm's IP. The above launch file makes calls to
 
 You may want to run MoveIt to plan and execute actions on the arm. You can do so by simply entering the following commands after launching ```ur_modern_driver```:
 ```
-roslaunch ur5_moveit_config ur5_moveit_planning_executing.launch
+roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch
 roslaunch ur5_moveit_config moveit_rviz.launch config:=true
 ```
 __Usage with gazebo simulation__

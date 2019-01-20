@@ -10,6 +10,11 @@ Make sure to source the correct setup file according to your workspace hierarchy
 
 Note that this package depends on ur_msgs, hardware_interface, and controller_manager so it cannot directly be used with ROS versions prior to hydro. If you do not have hardware_interface and controller_manager, install ros_control. (see [this tutorials](http://wiki.ros.org/ros_control))
 
+Also, if you want to connect MoveIt to gazobo simulation, make sure you have installed:
+```
+sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
+```
+
 __Usage with real hardware__
 
 If you would like to run this package to connect to the hardware, you only need to run the following launch file.

@@ -24,3 +24,18 @@ You may want to run MoveIt to plan and execute actions on the arm. You can do so
 roslaunch ur5_moveit_config ur5_moveit_planning_executing.launch
 roslaunch ur5_moveit_config moveit_rviz.launch config:=true
 ```
+__Usage with gazebo simulation__
+
+To launch the simulated arm and a controller for it, run:
+```
+roslaunch ur_gazebo ur5.launch
+```
+and in another terminal:
+```
+roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
+```
+To control the simulated arm from RViz, also run:
+```
+roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+```
+You should now be able to move the end effector goal to create a plan for the simulated arm to execute.

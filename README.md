@@ -2,7 +2,7 @@
 This is a package for ur5 universal robot, already tested on a real ur5 robot with software version 3.5.1.
 
 __Installation from Source__  
-There are releases available for ROS Hydro and ROS Indigo. However, for the latest features and developments you might want to install from source.
+There are releases available for ROS Kinetic. However, for the latest features and developments you might want to install from source.
 
 First set up a catkin workspace (see [this tutorials](http://wiki.ros.org/catkin/Tutorials)).  
 Then clone the repository into the src/ folder.
